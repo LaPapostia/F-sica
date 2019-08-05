@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Profe te queremos :3</title>
+</head>
+
+<body>
+  <div class="contenedorGlobal">
+
+
+    <% include partials/head.html%>
+    <% include partials/navigation.html%>
+
+    <style>
+      body {
+        /*font-family: 'Spici'
+      font-family: 'Notable', sans-serif;*/
+        font-family: 'Crimson Pro', serif;
+        font-size: 25px;
+      }
+    </style>
+
+
+    <!-- section one -->
+    <div class="contenedor">
+      <div class="row p-5 text-center" style="color: white" style="background-color: #392b1b">
+
+        <div class="col-sm-6">
+          <img src="img/inicio.jpg" width="400" height="400" class=" w-10s animated rollIn" id="inicio">
+        </div>
+
+        <div class="col-sm-6">
+          <br><br><br><br><br>
+          <h1>Recuperación de Física</h1>
+
+          <p>
+            <span> Campos Eléctricos y Potenciales</span>
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- section juanes -->
+    <div class="contenedor1">
+      <div class="row  text-black p-5 text-center">
+        <div class="col-sm-6">
+          <img src="img/juaneskappa.png" width="400" height="400" class=" w-10s animated rollIn" id="juanes">
+        </div>
+        <div class="col-sm-6">
+          <br><br><br><br><br><br><br><br>
+          <h1 class="w-10s animated bounceInRight" style="color: white">Juanes Sepúlveda</h1>
+          <button class="btn" onclick="Mostrar_OcultarJuanes()"><i class="fas fa-caret-down"></i></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!--campo electrico-->
+    <div class="contenedor2" id="introJuanes">
+
+      <div class="row  text-white p-5 text-left">
+        <div class="col-sm-6 w-10s animated bounceInLeft">
+          <h1 style="color: black">Teoría Campo Eléctrico</h1>
+        </div>
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <p style="color:white">
+            <br><br>
+            El Campo Eléctrico es la región del espacio en la que cualquier carga situada en un punto de dicha región
+            experimenta una acción o fuerza eléctrica debido a la presencia de una carga o cargas eléctricas.
+            <br><br>
+
+            <font size=7 color=black>Las características son:</font> <br>
+            - La carga eléctrica se conserva.
+            - Está cuantizada, debe ser un múltiplo entero de la unidad de carga fundamental, que es la carga del
+            electrón. qe = 1,602 x10-19 C <br>
+            - Las fuerzas de igual signo se repelen y de signos contrarios se atraen. <br>
+            - Las fuerzas entre cargas son inversamente proporcionales al cuadrado de la distancia que las separa. <br>
+            - Las fuerzas entre cargas son de carácter central. <br>
+            - Las fuerzas entre cargas son conservativas, es decir, el trabajo realizado por ellas a lo largo de una
+            trayectoria cerrada es nulo. <br>
+        </div>
+
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <p style="color:white">
+            <br><br>
+            <font size=7 color=black>Intensidad de un campo electrico: </font> <br>
+            Decimos que en una determina región del espacio existe un campo eléctrico si al introducir una carga q'
+            denominada carga testigo o carga de prueba sufre la acción de un fuerza eléctrica. Dicha carga siempre se
+            considera positiva por convenio. <br>
+            La intensidad del campo eléctrico (E→) o simplemente campo eléctrico en un punto es una magnitud vectorial
+            que representa la fuerza eléctrica(F→) que actúa por unidad de carga testigo positiva, q', situada en dicho
+            punto. <br>
+            E→=(F→)/(q') <br>
+            La unidad de intensidad del campo eléctrico en el Sistema Internacional (S.I.) es el Newton por Culombio
+            (N/C). <br>
+
+        </div>
+
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <p style="color:white">
+            <br><br>
+            De aquí podemos deducir que: <br>
+            Si la carga es positiva (q > 0), la fuerza eléctrica tendrá el mismo signo que el campo y por tanto q se
+            moverá en el sentido del campo. <br>
+            Si la carga es negativa (q < 0), la fuerza eléctrica tendrá distinto signo que el campo y por tanto q se
+              moverá en sentido contrario al campo. <br>
+        </div>
+
+        <div class="row  text-white p-5 text-left ">
+          <div class="col-sm-6 w-10s animated bounceInLeft">
+            <h1 style="color: black" style="font-size: 7">La intensidad del campo eléctrico en un determinado punto
+              creado por una carga puntual q se obtiene por medio de la siguiente expresión:</h1>
+          </div>
+          <div class="col-sm-6 w-10s animated bounceInRight">
+            <img src="img/formulaJuanes3.png" width="400" height="400" class=" w-10s animated rollIn" id="juanes">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- section maya -->
+    <div class="contenedor1">
+      <div class="row  text-white p-5 text-center">
+        <div class="col-sm-6">
+          <br><br><br><br><br><br><br><br>
+          <h1 class="w-10s animated bounceInRight" style="color: white">Mayerlin Gaviria</h1>
+          <button class="btn" onclick="Mostrar_OcultarMaya()"><i class="fas fa-caret-down"></i></i></button>
+        </div>
+        <div class="col-sm-6">
+          <img src="img/maya.jpg" width="400" height="400" class=" w-10s animated rollIn" id="maya">
+        </div>
+      </div>
+    </div>
+
+
+    <!--campo potencial-->
+    <div class="contenedor2" id="introMaya">
+      <div class="row  text-white p-5 text-left">
+        <div class="col-sm-6 w-10s animated bounceInLeft">
+          <h1 style="color: black">Introduction</h1>
+        </div>
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <font size=10 color=white>Glossary</font>
+          <p style="color:white">
+            <br><br>
+            <font size=5 color=black>Large:</font><br>
+            Of considerable or relatively great size, extent, or capacity.
+            <br><br>
+
+            <font size=5 color=black>Often:</font><br>
+            frequently; many times.
+            <br><br>
+
+            <font size=5 color=black>Great:</font><br>
+            of an extent, amount, or intensity considerably above average.
+            <br><br>
+
+            <font size=5 color=black>Took:</font><br>
+            a past of take.
+            <br><br>
+
+
+            <font size=10 color=white>Summary</font> <br>
+            He talks about how there are a variety of people in London, about what you can think and read about this
+            city, and a little about how the writer, <br>
+            Vicky Shipton, does not belong to London, but loves this city. <br>
+
+
+
+            <font size=10 color=white>Activities</font> <br>
+            <font size=5 color=black>1. What is the tallest building in London?</font><br>
+            - b) an office building.<br><br>
+            <font size=5 color=black>2. What destroyed most of the city in 1666?</font><br>
+            - a) a fire.<br><br>
+            <font size=5 color=black>3. How many bridges are there across the River Thames?</font><br>
+            - c) thirty-four<br><br>
+            <font size=5 color=black>4. Who - or What - is Big Ben?</font><br>
+            - a) a clock<br><br>
+            <font size=5 color=black>5. Which Roman first came to the south of England?</font><br>
+            - b) Julius Caesar<br><br>
+            <font size=5 color=black>6. Who said ‘When a man is tired of london, he is tired of life’?</font><br>
+            - a) Samuel Johnson<br><br>
+            <font size=5 color=black>7. What is Harrods?</font><br>
+            - c) a shop<br><br>
+            <font size=5 color=black>8. Which king lost his head in 1649?</font><br>
+            - a) Charles I<br>
+          </p>
+        </div>
+      </div>
+
+      <!--Chapter one-->
+
+      <div class="row  text-white p-5 text-left ">
+        <div class="col-sm-6 w-10s animated bounceInLeft">
+          <h1 style="color: black">A Great City</h1>
+        </div>
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <font size=10 color=black>Glossary</font>
+          <p style="color:white">
+            <br><br>
+            <font size=5 color=black>South east:</font>
+            the south-eastern part of a country, region, or town.
+            <br><br>
+
+            <font size=5 color=black>Square:</font>
+            an open, typically four-sided, area surrounded by buildings in a village, town, or city.
+            <br><br>
+
+            <font size=5 color=black>Tallest:</font>
+            having a relatively great height; of more than average stature.
+            <br><br>
+
+            <font size=5 color=black>Across:</font>
+            from one side to the other of (a place, area, etc.).
+            <br><br>
+
+            <font size=5 color=black>Lost: </font>
+            past and past participle of lose.
+            <br><br>
+
+            <font size=10 color=white>Summary</font> <br>
+            He tells us a little about his extension and asks some questions.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    <!-- Validacion de Juanes para mostrar-->
+    <script type="text/javascript">
+      document.getElementById("introJuanes").style.display = "none";
+      function MostrarJuanes() {
+        document.getElementById("introJuanes").style.display = "block";
+      }
+      function OcultarJuanes() {
+        document.getElementById("introJuanes").style.display = "none";
+      }
+
+      function Mostrar_OcultarJuanes() {
+        var cajaIva = document.getElementById("introJuanes");
+
+        if (cajaIva.style.display == "none") {
+          MostrarJuanes();
+        } else {
+          OcultarJuanes();
+        }
+      }
+    </script>
+
+
+
+    <script type="text/javascript">
+      //ocultar desde un principio
+      document.getElementById("introMaya").style.display = "none";
+      function MostrarMaya() {
+        document.getElementById("introMaya").style.display = "block";
+      }
+      function OcultarMaya() {
+        document.getElementById("introMaya").style.display = "none";
+      }
+
+      function Mostrar_OcultarMaya() {
+        var cajaMaya = document.getElementById("introMaya");
+
+        if (cajaMaya.style.display == "none") {
+          MostrarMaya();
+        } else {
+          OcultarMaya();
+        }
+      }
+    </script>
+
+
+
+    <% include partials/footer.html%>
+
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
